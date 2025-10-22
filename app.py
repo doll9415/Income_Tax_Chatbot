@@ -15,8 +15,7 @@ if not OPENAI_API_KEY:
     st.error("🔑 OPENAI_API_KEY가 설정되어 있지 않습니다. Streamlit Secrets 또는 환경변수로 설정해 주세요.")
     st.stop()
 
-client = OpenAI(api_key=https://platform.openai.com/settings/organization/api-keys
-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)
+client = OpenAI(api_key=https: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)
 
 # ---- Sidebar ----
 with st.sidebar:
